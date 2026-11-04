@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMAL MOTION STUDY — FROG</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main
+      class="poster"
+      id="poster"
+      aria-label="Frog interactive motion poster: click anywhere to extend its tongue, or click the moving fly to catch it."
+    >
+      <div class="ambient-glow" aria-hidden="true"></div>
+      <div class="rain" id="rain" aria-hidden="true"></div>
+      <div class="horizon-line" aria-hidden="true"></div>
+      <div class="pond-rings" aria-hidden="true"><span></span><span></span><span></span></div>
+
+      <div class="top-caption">ANIMAL STUDY / NO. 01 <span class="top-separator">—</span> RAINY NIGHT</div>
+
+      <section class="art-zone" aria-label="Geometric frog illustration">
+        <div class="art-caption">01 / FROG · TONGUE STUDY</div>
+        <div class="frog" id="frog" aria-hidden="true">
+          <div class="back-leg back-leg-left"></div>
+          <div class="back-leg back-leg-right"></div>
+          <div class="frog-body"></div>
+          <div class="frog-belly"></div>
+          <div class="frog-head"></div>
+          <div class="eye eye-left">
+            <div class="pupil"><div class="shine"></div></div>
+          </div>
+          <div class="eye eye-right">
+            <div class="pupil"><div class="shine"></div></div>
+          </div>
+          <div class="nostril nostril-left"></div>
+          <div class="nostril nostril-right"></div>
+          <div class="cheek cheek-left"></div>
+          <div class="cheek cheek-right"></div>
+          <div class="mouth" id="mouth"></div>
+          <div class="mouth-anchor" id="mouthAnchor"></div>
+          <div class="front-foot front-foot-left"></div>
+          <div class="front-foot front-foot-right"></div>
+        </div>
+        <div class="art-subcaption">CIRCLES / TRIANGLES / RECTANGLES</div>
+      </section>
+
+      <div class="fly" id="fly" aria-hidden="true">
+        <div class="fly-wing fly-wing-left"></div>
+        <div class="fly-wing fly-wing-right"></div>
+        <div class="fly-body"></div>
+        <div class="fly-head"></div>
+        <div class="fly-eye"></div>
+      </div>
+      <div class="tongue" id="tongue" aria-hidden="true"><div class="tongue-tip"></div></div>
+      <div class="impact" id="impact" aria-hidden="true"></div>
+
+      <section class="content">
+        <div class="content-kicker"><span class="status-dot"></span> LIVE MOTION EXPERIMENT</div>
+        <h1>ANIMAL<br />MOTION<br />STUDY<span class="title-period">.</span></h1>
+        <h2>An Exploration of Movement</h2>
+        <p class="description">
+          Exploring the rhythm, direction, and behavior of natural movement through geometric forms.
+        </p>
+        <div class="rule"></div>
+        <div class="details">
+          <div class="detail"><span>DATE</span><strong>DEC 10, 2026</strong></div>
+          <div class="detail"><span>TIME</span><strong>10:00 AM – 06:00 PM</strong></div>
+          <div class="detail"><span>PLACE</span><strong>DIGITAL ART EXHIBITION</strong></div>
+          <div class="detail"><span>ORGANIZED BY</span><strong>MYONGJI UNIVERSITY</strong></div>
+        </div>
+      </section>
+
+      <div class="bottom-caption">
+        <span>INTERACTIVE WEB EXPERIMENT / 2026</span><span class="bottom-number">001 / 001</span>
+      </div>
+      <div class="interaction-hint" id="hint" aria-live="polite">
+        CLICK THE FLY TO CATCH IT <span class="hint-sep">·</span> CLICK ANYWHERE TO SHOOT THE TONGUE
+      </div>
+    </main>
+  </body>
+</html>
